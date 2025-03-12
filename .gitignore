@@ -1,0 +1,51 @@
+# .gitignore for FsSimpleApi project
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.rsuser
+*.suo
+
+# Ignore Visual Studio Code specific files
+.vscode/
+.vscode/*
+
+# Ignore .NET specific files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore temporary files
+*.swp
+*~
+*.tmp
+*.temp
+
+# Ignore logs
+*.log
+
+# Ignore compiled DLLs
+*.dll
+*.exe
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Ignore Rider specific files
+.idea/
+.idea/*
+
+# Ignore JetBrains Rider specific files
+.idea/
+.idea/*
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Linux specific files
+*~
